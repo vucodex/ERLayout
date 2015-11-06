@@ -1,0 +1,308 @@
+$h1-color: #123123;
+$body-bakground: #e9e8e4;
+$container-width: 1000px;
+$main-color: #4c77a4;
+$h-color: #ffffff;
+$top-head-height: 50px;
+$main-menu-height: 50px;
+$default-margin: 8px;
+$default-padding: 8px;
+$default-radius: 5px;
+$default-border-color: #ececec;
+$default-box-color: #ffffff;
+$default-font-color: #999999;
+$box-min-height: 100px;
+$defautl-button-height: 30px;
+$default-button-width: 75px;
+$default-avatar-width: 80px;
+$default-action-image: 30px;
+
+body {
+    background-color: $body-bakground;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $h-color;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+button, select, input {
+	height: $defautl-button-height;
+	line-height: $defautl-button-height;
+	color: $default-font-color;
+	border: 1px solid $default-border-color;
+	border-radius: $default-radius;
+	background-color: transparent;
+	cursor: pointer;
+	min-width: $default-button-width;
+}
+
+button:hover {
+	color: $h-color;
+	background-color: $main-color;
+}
+
+.clr {
+    clear: both;
+}
+
+* {
+	transition-duration : 400ms;
+	-webkit-transition-duration : 400ms;
+}
+
+#wrap-all {
+	width: 100%;
+}
+
+#container {
+	width: $container-width;
+	margin: 0 auto;
+}
+
+#header {
+	width: 100%;
+	height: auto;
+}
+
+#header #top-head {
+	width: 100%;
+	height: $top-head-height;
+	background-color: $main-color;
+}
+
+#left-head {
+	width: 50%;
+	float: left;
+}
+
+#right-head {
+	width: 50%;
+	float: left;
+}
+
+#left-head .head-element {
+	float: left;
+	height: 100%;
+
+	h2 {
+		line-height: $top-head-height;
+		padding-left: $default-padding;
+		padding-right: $default-padding;
+	}
+}
+
+#main-search {
+	width: 300px;
+	background-color: $default-box-color;
+	height: $top-head-height*0.5;
+	margin-top: $top-head-height*0.25;
+}
+
+#right-head .head-element {
+	float: right;
+	height: 100%;
+
+	img {
+		width: $top-head-height*0.6;
+		margin-top: $top-head-height*0.2;
+	}
+}
+
+#menu {
+	margin-top: $default-margin;
+	border: solid 1px $default-border-color;
+	height: $main-menu-height;
+	background-color: $default-box-color;
+}
+
+#main-menu {
+	width: 100%;
+	height: 100%;
+}
+
+#main-menu ul {
+	width: 100%;
+	height: 100%;
+
+	li  {
+		float: left;
+		height: 100%;
+		padding-left: $default-padding;
+		padding-right: $default-padding;
+		line-height: $main-menu-height;
+		color: $default-font-color;
+		font-weight: bold;
+		cursor: pointer
+	}
+
+	li:hover {
+		background-color: $main-color;
+		color: $h-color;
+	}
+}
+
+#wrap-content {
+	width : 100%;
+	margin-top: $default-margin;
+}
+
+#content {
+	width: 69%;
+	float: left;
+	margin-right: 1%;
+}
+
+#sidebar {
+	width: 30%;
+	float: left;
+}
+
+.box-content, .sidebar-box {
+	min-height: $box-min-height;
+	background-color: $default-box-color;
+	border: solid 1px $default-border-color;
+	margin-bottom: $default-margin;
+	width: 100%;
+}
+
+.action-button-box {
+	text-align: center;
+}
+
+.action-button-box button.main-button {
+	display: inline-block;
+	margin-bottom: $default-padding;
+	margin-top: $default-padding;
+	width: $default-button-width*2;
+}
+
+.status-post-box {
+	padding: $default-padding;
+}
+
+.post-avatar {
+	width: 10%;
+	padding: $default-padding;
+	float: left;
+	img {
+		width: 100%;
+	}
+}
+
+.post-content {
+	float: left;
+	width: 80%;
+	padding: $default-padding;
+}
+
+.post-content textarea {
+	width: 100%;
+	height: $default-avatar-width;
+	border-radius: $default-radius;
+	border: solid 1px $default-border-color;
+}
+
+.post-action-element {
+	padding: $default-padding;
+	cursor: pointer;
+}
+
+.post-action-element label {
+	line-height: $defautl-button-height;
+}
+
+.post-content .left-post-action {
+	float: left;
+	width: 50%;
+}
+.post-content .left-post-action .post-action-element {
+	float: left;
+	img {
+		width: $default-action-image;
+	}
+}
+
+.post-content .right-post-action {
+	float: right;
+	width: 50%;
+}
+
+.post-content .right-post-action .post-action-element {
+	float: left;
+}
+
+.added-book-activity {
+	padding: $default-padding;
+}
+
+
+.activity-info {
+	width: 100%;
+	border-bottom: solid 1px $default-border-color;
+}
+
+.activity-avatar {
+	width: 7%;
+	float: left;
+	padding: $default-padding;
+
+	img {
+		width: 100%;
+	}
+}
+
+.activity-status-info {
+	float: left;
+}
+
+.activity-content {
+	padding: $default-padding;
+	margin-left: 7%;
+}
+
+.activity-content .activity-book-content-cover {
+	width: 25%;
+	float: left;
+	img {
+		width: 100%;
+	}
+}
+
+.activity-content .activity-book-content-info {
+	margin-left:  $default-margin;
+	float: left;
+	width: 70%;
+}
+
+.activity-content .activity-book-content-info .add-book-short-info {
+	border-bottom: solid 1px $default-border-color;
+}
+
+.activity-action {
+	border-top: solid 1px $default-border-color;
+	padding-top: $default-padding;
+}
+
+.comment-book-activity {
+	padding: $default-padding;
+}
+
+.comment-activity-section {
+	margin-bottom: $default-margin;
+}

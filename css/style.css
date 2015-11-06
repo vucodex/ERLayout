@@ -1,0 +1,231 @@
+body {
+  background-color: #e9e8e4;
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+button, select, input {
+  height: 30px;
+  line-height: 30px;
+  color: #999999;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  min-width: 75px; }
+
+button:hover {
+  color: #ffffff;
+  background-color: #4c77a4; }
+
+.clr {
+  clear: both; }
+
+* {
+  transition-duration: 400ms;
+  -webkit-transition-duration: 400ms; }
+
+#wrap-all {
+  width: 100%; }
+
+#container {
+  width: 1000px;
+  margin: 0 auto; }
+
+#header {
+  width: 100%;
+  height: auto; }
+
+#header #top-head {
+  width: 100%;
+  height: 50px;
+  background-color: #4c77a4; }
+
+#left-head {
+  width: 50%;
+  float: left; }
+
+#right-head {
+  width: 50%;
+  float: left; }
+
+#left-head .head-element {
+  float: left;
+  height: 100%; }
+  #left-head .head-element h2 {
+    line-height: 50px;
+    padding-left: 8px;
+    padding-right: 8px; }
+
+#main-search {
+  width: 300px;
+  background-color: #ffffff;
+  height: 25px;
+  margin-top: 12.5px; }
+
+#right-head .head-element {
+  float: right;
+  height: 100%; }
+  #right-head .head-element img {
+    width: 30px;
+    margin-top: 10px; }
+
+#menu {
+  margin-top: 8px;
+  border: solid 1px #ececec;
+  height: 50px;
+  background-color: #ffffff; }
+
+#main-menu {
+  width: 100%;
+  height: 100%; }
+
+#main-menu ul {
+  width: 100%;
+  height: 100%; }
+  #main-menu ul li {
+    float: left;
+    height: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 50px;
+    color: #999999;
+    font-weight: bold;
+    cursor: pointer; }
+  #main-menu ul li:hover {
+    background-color: #4c77a4;
+    color: #ffffff; }
+
+#wrap-content {
+  width: 100%;
+  margin-top: 8px; }
+
+#content {
+  width: 69%;
+  float: left;
+  margin-right: 1%; }
+
+#sidebar {
+  width: 30%;
+  float: left; }
+
+.box-content, .sidebar-box {
+  min-height: 100px;
+  background-color: #ffffff;
+  border: solid 1px #ececec;
+  margin-bottom: 8px;
+  width: 100%; }
+
+.action-button-box {
+  text-align: center; }
+
+.action-button-box button.main-button {
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  width: 150px; }
+
+.status-post-box {
+  padding: 8px; }
+
+.post-avatar {
+  width: 10%;
+  padding: 8px;
+  float: left; }
+  .post-avatar img {
+    width: 100%; }
+
+.post-content {
+  float: left;
+  width: 80%;
+  padding: 8px; }
+
+.post-content textarea {
+  width: 100%;
+  height: 80px;
+  border-radius: 5px;
+  border: solid 1px #ececec; }
+
+.post-action-element {
+  padding: 8px;
+  cursor: pointer; }
+
+.post-action-element label {
+  line-height: 30px; }
+
+.post-content .left-post-action {
+  float: left;
+  width: 50%; }
+
+.post-content .left-post-action .post-action-element {
+  float: left; }
+  .post-content .left-post-action .post-action-element img {
+    width: 30px; }
+
+.post-content .right-post-action {
+  float: right;
+  width: 50%; }
+
+.post-content .right-post-action .post-action-element {
+  float: left; }
+
+.added-book-activity {
+  padding: 8px; }
+
+.activity-info {
+  width: 100%;
+  border-bottom: solid 1px #ececec; }
+
+.activity-avatar {
+  width: 7%;
+  float: left;
+  padding: 8px; }
+  .activity-avatar img {
+    width: 100%; }
+
+.activity-status-info {
+  float: left; }
+
+.activity-content {
+  padding: 8px;
+  margin-left: 7%; }
+
+.activity-content .activity-book-content-cover {
+  width: 25%;
+  float: left; }
+  .activity-content .activity-book-content-cover img {
+    width: 100%; }
+
+.activity-content .activity-book-content-info {
+  margin-left: 8px;
+  float: left;
+  width: 70%; }
+
+.activity-content .activity-book-content-info .add-book-short-info {
+  border-bottom: solid 1px #ececec; }
+
+.activity-action {
+  border-top: solid 1px #ececec;
+  padding-top: 8px; }
+
+.comment-book-activity {
+  padding: 8px; }
+
+.comment-activity-section {
+  margin-bottom: 8px; }
+
+/*# sourceMappingURL=style.css.map */
